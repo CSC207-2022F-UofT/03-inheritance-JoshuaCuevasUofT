@@ -18,7 +18,7 @@ class BagMain {
         // TODO: Implement this.
         for (Bag Each_bag : bags) {
             Each_bag.increaseCapacity(1);
-            if (double_enhance_handbags && Each_bag instanceof HandBag) {
+            if (double_enhance_handbags & Each_bag instanceof HandBag) {
                 Each_bag.increaseCapacity(1);
             }
         }
